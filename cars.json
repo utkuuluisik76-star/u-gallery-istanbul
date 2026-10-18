@@ -1,0 +1,58 @@
+{
+  "gallery": {
+    "brand": "U-gallery Istanbul",
+    "tagline": {"en":"[TAGLINE]", "tr":"[SLOGAN]"},
+    "address": {"en":"Nişantaşı, Istanbul", "tr":"Nişantaşı, İstanbul"},
+    "streetAddress":"[STREET ADDRESS]",
+    "whatsapp": "+90 501 640 1479",
+    "phone": "+90 501 640 1479",
+    "mapsEmbed": "[GOOGLE MAPS EMBED]",
+    "socials":{"instagram":"[INSTAGRAM URL]","other":"[SOCIAL URL]"}
+  },
+  "cars": [
+    {
+      "id":"porsche-911-gt", "brand":"Porsche", "model":"911 GT3 RS", "variant":"GT3 RS (992)", "headline":"911 GT3 RS",
+      "reference":{"year":2022,"model":"911 GT3 RS (992)","checked":"2026-10-18","source":"https://newsroom.porsche.com/en/2022/products/porsche-911-gt3-rs-world-premiere-29177.html","powerKw":386,"powerPs":525,"zeroToHundred":3.2,"topSpeedKmh":296,"engineLitres":4.0,"cylinders":6,"engineLayout":"flat-six","transmission":"7-speed PDK","note":{"en":"2022 launch specification. Concept reference, not an identified vehicle. Exact Porsche variant still to be confirmed.","tr":"2022 tanıtım teknik verileri. Belirli bir araca değil, konsept modele aittir. Kesin Porsche versiyonu henüz onaylanmadı."}},
+      "showroom":{"image":"assets/cars/porsche-platform-v2.webp","imageSmall":"assets/cars/porsche-platform-v2-840.webp","width":1536,"height":1024,"presentation":{"includesPlatform":true,"bounds":{"x":16,"y":231,"width":1507,"height":690},"scale":1},"alt":{"en":"Pale blue Porsche 911 CGI concept, tyres resting on a round graphite display platform","tr":"Yuvarlak grafit sergileme platformuna basan lastikleriyle açık mavi Porsche 911 CGI konsepti"}},
+      "presentation":{"bounds":{"x":72,"y":223,"width":1563,"height":605},"scale":1},
+      "image":"assets/cars/porsche-911-gt.webp", "imageSmall":"assets/cars/porsche-911-gt-840.webp", "width":1678, "height":937,
+      "alt":{"en":"Pale blue Porsche 911 concept render, front three-quarter view with Porsche emblems", "tr":"Porsche amblemleriyle açık mavi Porsche 911 konsept görseli, önden üç çeyrek açı"},
+      "line":{"en":"Form. Focus. Feeling.", "tr":"Form. Odak. His."},
+      "year":"[YEAR]", "mileage":"[MILEAGE]", "colour":"[COLOUR]", "price":"[PRICE]",
+      "specs":{"power":"525 PS", "acceleration":"3.2 s", "engine":"4.0L flat-6"}
+    },
+    {
+      "id":"g-wagon", "brand":"Mercedes-AMG", "model":"G-Class", "variant":"G 63", "headline":"G-CLASS",
+      "reference":{"year":2018,"model":"Mercedes-AMG G 63","checked":"2026-10-18","source":"https://event.media.mercedes-benz.com/article/037b6d2e-9ce5-4029-aa98-9f7698bd6de1","powerKw":430,"powerPs":585,"zeroToHundred":4.5,"topSpeedKmh":220,"topSpeedWithDriversPackageKmh":240,"torqueNm":850,"engineLitres":4.0,"cylinders":8,"engineLayout":"V8 biturbo","drivetrain":"AWD","transmission":"9-speed automatic","note":{"en":"2018 launch specification, standard 220 km/h limiter. Concept reference, not an identified vehicle.","tr":"2018 tanıtım teknik verileri; standart hız sınırı 220 km/sa. Belirli bir araca değil, konsept modele aittir."}},
+      "showroom":{"image":"assets/cars/g-wagon-platform-v2.webp","imageSmall":"assets/cars/g-wagon-platform-v2-840.webp","width":1536,"height":1024,"presentation":{"includesPlatform":true,"bounds":{"x":36,"y":145,"width":1475,"height":778},"scale":1},"alt":{"en":"Black Mercedes-AMG G-Class CGI concept, tyres resting on a round graphite display platform","tr":"Yuvarlak grafit sergileme platformuna basan lastikleriyle siyah Mercedes-AMG G-Serisi CGI konsepti"}},
+      "presentation":{"bounds":{"x":123,"y":102,"width":1487,"height":787},"scale":1},
+      "image":"assets/cars/g-wagon.webp", "imageSmall":"assets/cars/g-wagon-840.webp", "width":1678, "height":937,
+      "alt":{"en":"Black Mercedes-AMG G-Class concept render, front three-quarter view with Mercedes star", "tr":"Mercedes yıldızlı siyah Mercedes-AMG G-Serisi konsept görseli, önden üç çeyrek açı"},
+      "line":{"en":"An unmistakable presence.", "tr":"Kendine özgü bir duruş."},
+      "year":"[YEAR]", "mileage":"[MILEAGE]", "colour":"[COLOUR]", "price":"[PRICE]",
+      "specs":{"power":"585 PS", "acceleration":"4.5 s", "engine":"4.0L V8"}
+    },
+    {
+      "id":"cullinan", "brand":"Rolls-Royce", "model":"Cullinan", "variant":"V12", "headline":"CULLINAN",
+      "reference":{"year":2018,"model":"Rolls-Royce Cullinan (launch specification)","checked":"2026-10-18","source":"https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/article/detail/T0280959EN/%3CtagLinkPrefix%3E","powerKw":420,"powerPs":571,"zeroToHundred":null,"topSpeedKmh":250,"torqueNm":850,"engineLitres":6.75,"cylinders":12,"engineLayout":"V12 twin-turbo","drivetrain":"AWD","note":{"en":"2018 launch specification. The official source does not state 0–100 km/h; this remains unconfirmed. Concept reference, not inventory.","tr":"2018 tanıtım teknik verileri. Resmî kaynak 0–100 km/sa süresini belirtmediği için bu değer onay bekliyor. Stok araç bilgisi değil, konsept referansıdır."}},
+      "showroom":{"image":"assets/cars/cullinan-platform-v2.webp","imageSmall":"assets/cars/cullinan-platform-v2-840.webp","width":1536,"height":1024,"presentation":{"includesPlatform":true,"bounds":{"x":26,"y":163,"width":1485,"height":770},"scale":1},"alt":{"en":"Graphite Rolls-Royce Cullinan CGI concept, tyres resting on a round graphite display platform","tr":"Yuvarlak grafit sergileme platformuna basan lastikleriyle grafit Rolls-Royce Cullinan CGI konsepti"}},
+      "presentation":{"bounds":{"x":132,"y":172,"width":1459,"height":717},"scale":1},
+      "image":"assets/cars/cullinan.webp", "imageSmall":"assets/cars/cullinan-840.webp", "width":1677, "height":938,
+      "alt":{"en":"Dark grey Rolls-Royce Cullinan concept render with double-R badge and bonnet ornament", "tr":"Çift R armalı ve kaput heykelcikli koyu gri Rolls-Royce Cullinan konsept görseli"},
+      "line":{"en":"Space to set your own pace.", "tr":"Kendi ritminize yer açın."},
+      "year":"[YEAR]", "mileage":"[MILEAGE]", "colour":"[COLOUR]", "price":"[PRICE]",
+      "specs":{"power":"571 PS", "acceleration":"[TO CONFIRM]", "engine":"6.75L V12"}
+    },
+    {
+      "id":"s-class", "brand":"Mercedes-Benz", "model":"S-Class", "variant":"S 500 4MATIC", "headline":"S-CLASS",
+      "reference":{"year":2020,"model":"Mercedes-Benz S 500 4MATIC (W223 launch specification)","checked":"2026-10-18","source":"https://media.mercedes-benz.com/article/8af2ef8e-c8bc-43d3-87d5-1d8706fd10a5","powerKw":320,"powerPs":435,"zeroToHundred":4.9,"topSpeedKmh":250,"torqueNm":520,"engineLitres":2.999,"cylinders":6,"engineLayout":"inline-six, 48V mild hybrid","eqBoostKw":16,"eqBoostPs":22,"drivetrain":"4MATIC AWD","transmission":"9G-TRONIC","note":{"en":"2020 launch specification. 435 PS is the combustion-engine rating; the separate temporary EQ Boost is not added to it. Concept reference, not inventory.","tr":"2020 tanıtım teknik verileri. 435 PS içten yanmalı motor gücüdür; geçici EQ Boost gücü buna eklenmemiştir. Stok araç bilgisi değil, konsept referansıdır."}},
+      "showroom":{"image":"assets/cars/s-class-platform-v2.webp","imageSmall":"assets/cars/s-class-platform-v2-840.webp","width":1536,"height":1024,"presentation":{"includesPlatform":true,"bounds":{"x":32,"y":213,"width":1477,"height":691},"scale":1},"alt":{"en":"Black Mercedes-Benz S-Class CGI concept, tyres resting on a round graphite display platform","tr":"Yuvarlak grafit sergileme platformuna basan lastikleriyle siyah Mercedes-Benz S-Serisi CGI konsepti"}},
+      "presentation":{"bounds":{"x":90,"y":203,"width":1522,"height":650},"scale":1},
+      "image":"assets/cars/s-class.webp", "imageSmall":"assets/cars/s-class-840.webp", "width":1679, "height":937,
+      "alt":{"en":"Black Mercedes-Benz S-Class concept render, front three-quarter view with Mercedes bonnet star", "tr":"Kaputunda Mercedes yıldızı bulunan siyah Mercedes-Benz S-Serisi konsept görseli, önden üç çeyrek açı"},
+      "line":{"en":"A considered way to arrive.", "tr":"Varışın sakin ifadesi."},
+      "year":"[YEAR]", "mileage":"[MILEAGE]", "colour":"[COLOUR]", "price":"[PRICE]",
+      "specs":{"power":"435 PS", "acceleration":"4.9 s", "engine":"3.0L I6"}
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Secrets: never commit
+.env
+.env.*
+*.pem
+*.key
+
+# Local tooling and OS clutter
+.wrangler
+node_modules
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini

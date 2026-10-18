@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta name="description" content="U-gallery Istanbul: an automotive gallery portfolio concept set in Nişantaşı. CGI visuals and sourced model references; not a real business or vehicle inventory.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="U-gallery Istanbul — car gallery concept">
+  <meta property="og:description" content="Automotive gallery concept in Nişantaşı. CGI visuals and manufacturer reference data, not real inventory.">
+  <meta property="og:type" content="website">
+  <title>U-gallery Istanbul — car gallery concept</title>
+  <link rel="icon" href="assets/images/icon.svg" type="image/svg+xml">
+  <script>
+    /* Readable static layout first; animation failure always falls back. */
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches && scrollY < 100) {
+      document.documentElement.classList.add('motion');
+      window.motionFallback = setTimeout(() => document.documentElement.classList.remove('motion'), 8000);
+    }
+  </script>
+  <link rel="preload" href="assets/fonts/space-grotesk-latin-tr.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope-latin-tr.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/cars/porsche-platform-v2.webp" as="image" imagesrcset="assets/cars/porsche-platform-v2-840.webp 840w, assets/cars/porsche-platform-v2.webp 1536w" imagesizes="(max-width: 600px) 90vw, 68vw" media="(prefers-reduced-motion: no-preference)">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/showroom.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <main id="main">
+    <!-- The original hero markup remains the reduced-motion / failure fallback. -->
+    <section class="hero" id="hero" aria-label="Featured cars">
+      <div class="stage">
+        <img class="studio" src="assets/images/studio.webp" width="1024" height="572" alt="" aria-hidden="true" fetchpriority="low">
+        <div class="ambient" aria-hidden="true"></div>
+        <header class="site-header">
+          <a class="brand" href="#hero" id="brandName">U-gallery Istanbul</a>
+          <nav class="nav-pill" aria-label="Main navigation">
+            <button class="nav-link" id="selectionButton" data-i18n="selection">The selection</button>
+            <button class="nav-link" data-viewing data-i18n="privateViewing">Private viewing</button>
+            <div class="language" aria-label="Language">
+              <button lang="en" id="langEn" aria-label="Switch to English" aria-pressed="true">EN</button>
+              <span aria-hidden="true">/</span>
+              <button lang="tr" id="langTr" aria-label="Türkçeye geç" aria-pressed="false">TR</button>
+            </div>
+          </nav>
+          <span class="location">Nişantaşı, İstanbul <span class="live-dot" aria-hidden="true"></span></span>
+        </header>
+
+        <div class="intro-line"><span class="fine-label" data-i18n="galleryLabel">Automotive gallery concept</span><span class="placeholder" id="tagline">[TAGLINE]</span></div>
+        <!-- In showroom mode the accessible H1 remains here; visible names live behind the cars. -->
+        <div class="headline-layer" id="headlineLayer">
+          <div class="model-meta"><span id="carBrand">Porsche</span><span class="model-rule" aria-hidden="true"></span><span class="variant" id="carVariant">GT3 RS (992)</span></div>
+          <h1 id="modelHeadline">911 GT3 RS</h1>
+        </div>
+        <div class="car-stage" aria-label="Selected vehicle">
+          <div class="floor-shadow" aria-hidden="true"></div>
+          <div class="car-actor" id="carActor">
+            <img id="carImage" class="car-image" src="assets/cars/porsche-911-gt.webp" srcset="assets/cars/porsche-911-gt-840.webp 840w, assets/cars/porsche-911-gt.webp 1680w" sizes="(max-width: 600px) 115vw, 80vw" width="1680" height="960" alt="Pale blue Porsche 911 concept render, front three-quarter view with Porsche emblems" fetchpriority="high" decoding="async">
+            <img id="carReflection" class="car-reflection" src="assets/cars/porsche-911-gt-840.webp" width="840" height="480" alt="" aria-hidden="true" decoding="async">
+          </div>
+          <div class="light-sweep" id="lightSweep" aria-hidden="true"></div>
+        </div>
+
+        <div class="stat-stack" id="statStack" aria-label="Vehicle reference fields">
+          <div class="stat-card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17a8 8 0 1 1 16 0M12 13l5-5M5 19h14"/></svg><div><span data-i18n="power">Power</span><strong id="powerValue">525 PS</strong></div></div>
+          <div class="stat-card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 16l5-5 4 3 7-9M15 5h5v5"/></svg><div><span data-i18n="acceleration">0–100 km/h</span><strong id="accelerationValue">3.2 s</strong></div></div>
+          <div class="stat-card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h3l3-3h7v3h3v8H7l-3-3zM11 4h6M14 4v3M1 11v6"/></svg><div><span data-i18n="engine">Engine</span><strong id="engineValue">4.0L flat-6</strong></div></div>
+        </div>
+        <div class="right-note"><span class="fine-label" data-i18n="selectedForm">Selected form</span><p id="carLine">Form. Focus. Feeling.</p><span class="spec-reference-label" id="specReferenceLabel">Factory reference · 2022</span></div>
+
+        <div class="hero-bottom">
+          <div class="values"><span data-i18n="character">Character</span><span data-i18n="craft">Craft</span><span data-i18n="presence">Presence</span></div>
+          <button class="viewing-cta" data-viewing><span data-i18n="requestViewing">Request a viewing</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></button>
+          <div class="vehicle-controls" aria-label="Select featured vehicle">
+            <button id="previousCar" class="arrow" aria-label="Previous vehicle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m5-5-5 5 5 5"/></svg></button>
+            <span class="car-count"><span id="currentNumber">01</span><span class="count-divider">/</span><span id="totalNumber">04</span></span>
+            <button id="nextCar" class="arrow" aria-label="Next vehicle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></button>
+          </div>
+        </div>
+        <div class="stage-footnote"><span data-i18n="concept">Concept / portfolio</span><div class="car-dots" id="carDots" aria-label="Featured vehicles"></div><span class="scroll-hint" data-i18n="scrollHint">Scroll to change perspective</span></div>
+        <p class="sr-only" id="vehicleStatus" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+    <section class="viewing-section content-section" id="private-viewing" aria-labelledby="private-title">
+      <div class="section-inner viewing-layout">
+        <div><p class="fine-label" data-copy="viewingLabel">Private viewing</p><h2 id="private-title" data-copy="viewingTitle">A closer look.<br>At your pace.</h2><p class="section-copy" data-copy="viewingCopy">Choose a reference model and ask about this gallery concept.</p><div class="contact-links"><a data-contact="whatsapp" class="contact-link" href="https://wa.me/905016401479?text=Merhaba%2C%20U-gallery%20Istanbul%20konsept%20sitesi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">+90 501 640 1479</a><a data-contact="phone" class="contact-link" href="tel:+905016401479">+90 501 640 1479</a></div></div>
+        <form id="viewingForm" class="viewing-form" novalidate>
+          <div class="form-field"><label for="enquiryName" data-copy="name">Your name</label><input id="enquiryName" name="name" autocomplete="name" required aria-describedby="enquiryNameError"><span class="field-error" id="enquiryNameError"></span></div>
+          <div class="form-field"><label for="enquiryCar" data-copy="interest">Car of interest</label><select id="enquiryCar" name="car"></select></div>
+          <div class="form-field"><label for="enquiryMessage" data-copy="message">Your message (optional)</label><textarea id="enquiryMessage" name="message" rows="3"></textarea></div>
+          <button class="viewing-cta form-submit" type="submit"><span data-copy="prepare">Prepare WhatsApp enquiry</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></button>
+          <p class="form-status" id="enquiryStatus" role="status" aria-live="polite"></p><p class="form-note" data-copy="formNote">This contact is for the concept website, not a real showroom. No booking is made.</p>
+        </form>
+        <details class="reference-notes"><summary data-copy="referencesTitle">Model references &amp; sources</summary><p class="section-copy" data-copy="referencesIntro">Manufacturer specifications for the named reference versions, not real inventory. PS is metric horsepower, not SAE hp. CGI visuals may differ from the reference specification.</p><div class="reference-list" id="referenceList"></div></details>
+      </div>
+    </section>
+    <section class="visit-section content-section" id="visit" aria-labelledby="visit-title"><div class="section-inner visit-layout"><div><p class="fine-label" data-copy="visitLabel">Visit us</p><h2 id="visit-title">Nişantaşı.</h2><p class="visit-address" data-gallery-address>Nişantaşı, Istanbul</p><p class="placeholder" data-gallery-street>[STREET ADDRESS]</p><p class="section-copy" data-copy="visitCopy">Concept location only. No physical showroom is represented; an exact address has not been supplied.</p></div><div class="map-placeholder" role="group" aria-label="Nişantaşı neighbourhood, concept location only"><div class="map-cross" aria-hidden="true">+</div><span>NİŞANTAŞI</span><p data-copy="mapArea">Area overview only — not a showroom pin.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Ni%C5%9Fanta%C5%9F%C4%B1%2C%20Istanbul" target="_blank" rel="noopener noreferrer" data-copy="viewArea">View neighbourhood on Google Maps</a></div></div></section>
+    <noscript><p class="no-js">U-gallery Istanbul is a portfolio concept, not a real business or vehicle inventory. Porsche reference: 911 GT3 RS (992), 2022 launch specification. <a href="https://newsroom.porsche.com/en/2022/products/porsche-911-gt3-rs-world-premiere-29177.html">Manufacturer source</a>. Enable JavaScript for other models and Turkish.</p></noscript>
+  </main>
+  <footer class="site-footer"><div class="section-inner footer-inner"><span data-gallery-brand>U-gallery Istanbul</span><span data-copy="concept">Concept / portfolio</span><div class="footer-socials"><a class="placeholder" data-social="instagram" aria-disabled="true">[INSTAGRAM URL]</a><a class="placeholder" data-social="other" aria-disabled="true">[SOCIAL URL]</a></div><a href="#hero" data-copy="backTop">Back to the gallery</a></div></footer>
+  <div class="mobile-viewing-bar"><button class="viewing-cta" data-viewing><span data-i18n="requestViewing">Request a viewing</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></button></div>
+  <!-- A contact-intent dialog keeps the hero CTA useful without inventing a destination. -->
+  <dialog id="viewingDialog" aria-labelledby="viewingTitle">
+    <button class="dialog-close" id="closeViewing" aria-label="Close enquiry">×</button>
+    <p class="fine-label" data-i18n="privateViewing">Private viewing</p>
+    <h2 id="viewingTitle" data-i18n="viewingTitle">See it for yourself.</h2>
+    <p id="viewingCar">Porsche 911 GT3 RS</p>
+    <p class="contact-placeholder" id="whatsappNumber">+90 501 640 1479</p>
+    <p class="contact-placeholder" id="phoneNumber">+90 501 640 1479</p>
+    <p class="contact-placeholder" id="address">Nişantaşı, Istanbul</p>
+    <p class="dialog-note" data-i18n="contactNote">Concept / portfolio. No real showroom or vehicles for sale.</p>
+  </dialog>
+  <dialog id="selectionDialog" aria-labelledby="selectionTitle">
+    <button class="dialog-close" id="closeSelection" aria-label="Close collection">×</button>
+    <h2 id="selectionTitle" data-i18n="selection">The selection</h2>
+    <div class="selection-list" id="selectionList"></div>
+  </dialog>
+</body>
+</html>
