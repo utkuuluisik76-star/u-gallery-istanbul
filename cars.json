@@ -1,7 +1,7 @@
 {
   "gallery": {
     "brand": "U-gallery Istanbul",
-    "tagline": {"en":"[TAGLINE]", "tr":"[SLOGAN]"},
+    "tagline": {"en":"Premium cars for every customer", "tr":"Her müşteri için premium otomobiller"},
     "address": {"en":"Nişantaşı, Istanbul", "tr":"Nişantaşı, İstanbul"},
     "streetAddress":"[STREET ADDRESS]",
     "whatsapp": "+90 501 640 1479",
