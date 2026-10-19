@@ -41,7 +41,7 @@
       "alt":{"en":"Dark grey Rolls-Royce Cullinan concept render with double-R badge and bonnet ornament", "tr":"Çift R armalı ve kaput heykelcikli koyu gri Rolls-Royce Cullinan konsept görseli"},
       "line":{"en":"Space to set your own pace.", "tr":"Kendi ritminize yer açın."},
       "year":"[YEAR]", "mileage":"[MILEAGE]", "colour":"[COLOUR]", "price":"[PRICE]",
-      "specs":{"power":"571 PS", "acceleration":"[TO CONFIRM]", "engine":"6.75L V12"}
+      "specs":{"power":"571 PS", "acceleration":"5.2s", "engine":"6.75L V12"}
     },
     {
       "id":"s-class", "brand":"Mercedes-Benz", "model":"S-Class", "variant":"S 500 4MATIC", "headline":"S-CLASS",
