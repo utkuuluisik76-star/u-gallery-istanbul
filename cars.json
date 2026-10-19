@@ -3,11 +3,11 @@
     "brand": "U-gallery Istanbul",
     "tagline": {"en":"Premium cars for every customer", "tr":"Her müşteri için premium otomobiller"},
     "address": {"en":"Nişantaşı, Istanbul", "tr":"Nişantaşı, İstanbul"},
-    "streetAddress":"[STREET ADDRESS]",
+    "streetAddress":"Nisantasi sk 15.",
     "whatsapp": "+90 501 640 1479",
     "phone": "+90 501 640 1479",
-    "mapsEmbed": "[GOOGLE MAPS EMBED]",
-    "socials":{"instagram":"[INSTAGRAM URL]","other":"[SOCIAL URL]"}
+    "mapsEmbed": " Besiktas",
+    "socials":{"instagram":"https://www.instagram.com/u_luksstudyo/","other":"yok"}
   },
   "cars": [
     {
