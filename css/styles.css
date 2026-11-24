@@ -24,3 +24,7 @@ dialog{width:min(470px,calc(100% - 32px));padding:44px 30px 30px;border:1px soli
 @media(max-width:599px){.motion .hero{height:450svh}}
 @media(max-width:599px){.headline-layer{top:24%}.car-stage{top:24%;left:-4%;width:108%}.stat-stack{bottom:27%}.stat-card span{font-size:9px}.stat-card strong{font-size:10.5px}}
 @media(min-width:600px) and (max-width:1099px) and (min-height:731px){.car-stage{left:5%;width:95%;bottom:28%}}
+
+/* inline SVG arrows (text arrows render as emoji on iOS) */
+.ar{display:inline-block;width:1em;height:1em;flex-shrink:0;vertical-align:-.125em;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:square;stroke-linejoin:miter}
+.ar-ur{transform:rotate(-45deg)}

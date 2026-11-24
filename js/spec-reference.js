@@ -10,7 +10,7 @@ export function renderSpecReference(car,language='en') {
 const safe=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function renderReferences(cars,language='en') {
   const list=document.querySelector('#referenceList');if(!list)return;
-  const tr=language==='tr',labels=tr?['Güç','0–100 km/sa','Motor','Azami hız','Tork','Üretici kaynağı ↗']:['Power','0–100 km/h','Engine','Top speed','Torque','Manufacturer source ↗'];
+  const AR='<svg class="ar ar-ur" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h16M13 5l7 7-7 7"/></svg>',tr=language==='tr',labels=tr?['Güç','0–100 km/sa','Motor','Azami hız','Tork','Üretici kaynağı '+AR]:['Power','0–100 km/h','Engine','Top speed','Torque','Manufacturer source '+AR];
   list.innerHTML=cars.filter(c=>c.reference).map(c=>{
     const r=c.reference,values=[`${c.specs.power} / ${r.powerKw} kW`,c.specs.acceleration,c.specs.engine,`${r.topSpeedKmh} km/h`,r.torqueNm?`${r.torqueNm} Nm`:null];
     return `<article><h3>${safe(r.model)} <span>(${r.year})</span></h3><dl>${values.map((v,i)=>v===null?'':`<div><dt>${labels[i]}</dt><dd${/^\[.*\]$/.test(v)?' class="placeholder"':''}>${safe(v)}</dd></div>`).join('')}</dl><p>${safe(r.note[language])}</p><a href="${safe(r.source)}" target="_blank" rel="noopener noreferrer">${labels[5]}<span class="sr-only">${tr?' — yeni sekme':' — new tab'}</span></a></article>`;
